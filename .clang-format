@@ -1,0 +1,7 @@
+# Used by clangd's "Format Document". LLVM style, as before, but indented
+# with tabs. Wrapped lines are indented with tabs and aligned with spaces, so
+# they line up at any tab width.
+BasedOnStyle: LLVM
+UseTab: AlignWithSpaces
+IndentWidth: 4
+TabWidth: 4

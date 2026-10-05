@@ -1,0 +1,9 @@
+# Everything the Makefile builds: the compiler, generated sources, objects,
+# and the output of `make compile` / `make run`
+/build/
+
+# Editor backups (also removed by `make clean`)
+*~
+
+# clangd's index
+/.cache/
